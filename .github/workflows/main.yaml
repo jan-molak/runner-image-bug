@@ -16,4 +16,6 @@ jobs:
     steps:
       - name: Print Chrome version
         run: /usr/bin/google-chrome --version
+      - name: Print ChromeDriver version
+        run: /usr/local/share/chrome_driver/chromedriver --version
 
